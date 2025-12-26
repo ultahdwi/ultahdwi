@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Graduation & Birthday!</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        glass: 'rgba(255, 255, 255, 0.1)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e1b4b; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #818cf8; 
+            border-radius: 4px;
+        }
+
+        /* Glassmorphism Utilities */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Swiper Fix */
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            border-radius: 1rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 1rem;
+        }
+    </style>
+</head>
+<body class="font-poppins text-white overflow-x-hidden">
+
+    <div class="fixed inset-0 -z-10 bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-900"></div>
+
+    <main class="container mx-auto px-4 py-10 max-w-4xl space-y-24">
+        
+        <section class="min-h-[80vh] flex flex-col justify-center items-center text-center space-y-6">
+            <div data-aos="zoom-in" data-aos-duration="1500" class="relative">
+                <div class="w-48 h-48 md:w-64 md:h-64 rounded-full p-2 border-4 border-white/20 glass-card mx-auto overflow-hidden">
+                    <img src="pp.jpg" alt="Profile" class="w-full h-full object-cover rounded-full hover:scale-110 transition duration-500">
+                </div>
+            </div>
+
+            <div class="space-y-2">
+                <h2 class="text-xl md:text-2xl text-indigo-300 font-light" data-aos="fade-up" data-aos-delay="200">Selamat ya banggg!</h2>
+                <h1 class="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-200 to-purple-400 min-h-[80px]">
+                    <span id="typed-text"></span>
+                </h1>
+            </div>
+            
+            <p class="max-w-xl text-gray-300 text-sm md:text-base leading-relaxed" data-aos="fade-up" data-aos-delay="400">
+                Kamu menjadi kuat bukan ketika dunia menjadi ringan, tapi ketika kamu berhenti berharap itu akan mudah.
+            </p>
+
+            <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#message" class="inline-block px-8 py-3 rounded-full bg-white text-indigo-900 font-bold hover:bg-indigo-100 transition shadow-lg hover:shadow-indigo-500/50">
+                    Lihat Pesan 👇
+                </a>
+            </div>
+        </section>
+
+        <section class="relative">
+            <div class="text-center mb-10" data-aos="fade-down">
+                <h2 class="text-3xl font-bold text-white mb-2">Momen Berharga 📸</h2>
+                <div class="w-20 h-1 bg-purple-500 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="swiper mySwiper" data-aos="fade-up" data-aos-duration="1200">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (1).jpg" alt="Kenangan 1">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (2).jpg" alt="Kenangan 2">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (3).jpg" alt="Kenangan 3">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (4).jpg" alt="Kenangan 4">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (5).jpg" alt="Kenangan 5">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (6).jpg" alt="Kenangan 6">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (7).jpg" alt="Kenangan 7">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (8).jpg" alt="Kenangan 8">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (9).jpg" alt="Kenangan 9">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (10).jpg" alt="Kenangan 10">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (11).jpg" alt="Kenangan 11">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (12).jpg" alt="Kenangan 12">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (13).jpg" alt="Kenangan 13">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (14).jpg" alt="Kenangan 14">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (15).jpg" alt="Kenangan 15">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (16).jpg" alt="Kenangan 16">
+                    </div>
+
+                    <div class="swiper-slide glass-card">
+                        <img src="kenangan (17).jpg" alt="Kenangan 17">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="relative py-10">
+            <div class="text-center mb-12" data-aos="fade-down">
+                <h2 class="text-3xl font-bold text-white mb-2">Sedikit Hadiah Untukmu 🎁</h2>
+                <p class="text-gray-300">Jangan lihat nilainya, tapi lihat doa dan harapan baik yang menyertainya.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <div class="glass-card p-6 rounded-2xl hover:bg-white/10 transition duration-300 group" data-aos="fade-right" data-aos-delay="100">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-purple-600/20 p-3 rounded-full text-3xl group-hover:scale-110 transition">
+                            🥤
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-2">Tumbler</h3>
+                            <p class="text-sm text-gray-300 leading-relaxed">
+                                Awkmu nanti pasti bakal sibuk banget, ojk lali ngombe wkwkw. Sorry tulisan happy birthday-ne double, salah koordinasi ambel penjuale njir.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card p-6 rounded-2xl hover:bg-white/10 transition duration-300 group" data-aos="fade-left" data-aos-delay="200">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-blue-600/20 p-3 rounded-full text-3xl group-hover:scale-110 transition">
+                            📓
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-2">Buku Catatan & Bulpoin</h3>
+                            <p class="text-sm text-gray-300 leading-relaxed">
+                                Gak ngerti kepakek atau gak buku e, tapi seenggak e bolpoin pasti kepakek, kepakek buat mengukir ide-ide besar, rencana hebat, dan harapan-harapan indah di masa depan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card p-6 rounded-2xl hover:bg-white/10 transition duration-300 group" data-aos="fade-right" data-aos-delay="300">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-pink-600/20 p-3 rounded-full text-3xl group-hover:scale-110 transition">
+                            🖼️
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-2">Pigora</h3>
+                            <p class="text-sm text-gray-300 leading-relaxed">
+                                Kenang kenangan wisuda, sokmben lek wisuda S2 kabari lagi, tak usahain dateng.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card p-6 rounded-2xl hover:bg-white/10 transition duration-300 group" data-aos="fade-left" data-aos-delay="400">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-yellow-600/20 p-3 rounded-full text-3xl group-hover:scale-110 transition">
+                            💡
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-2">Lampu Hias</h3>
+                            <p class="text-sm text-gray-300 leading-relaxed">
+                                Nyalakno dalam kondisi lampu dipateni, apik njirr.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card p-6 rounded-2xl hover:bg-white/10 transition duration-300 group" data-aos="fade-right" data-aos-delay="500">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-pink-600/20 p-3 rounded-full text-3xl group-hover:scale-110 transition">
+                            🎧
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-2">Handle Headphone</h3>
+                            <p class="text-sm text-gray-300 leading-relaxed">
+                                Sak elengku mbiyen awkmu pas tuku laptop oleh headphone, timbangane headphone u taruk ke meja langsung, taruk di handle aja biar lebih rapi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="message" class="pb-20">
+            <div class="glass-card rounded-3xl p-8 md:p-12 relative overflow-hidden" data-aos="zoom-in-up" data-aos-duration="1500">
+                <div class="absolute top-0 left-0 text-8xl text-white/5 font-serif transform -translate-x-4 -translate-y-4">“</div>
+                
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-6">Pesan Untukmu 💌</h2>
+                
+                <div class="prose prose-invert mx-auto text-center">
+                    <p class="text-base md:text-lg text-gray-200 leading-loose">
+                        "Selamat Wisuda & Selamat Ulang Tahun! <br><br>
+                        Sumpah sorry banget ya wi hadiah e telat banget, baru sempet isok ngekek no hadiah hari ini soale. Pokok e iki tak gabung hadiah ulang tahun ambek hadiah wisuda wkwkw. Jujur pas onk berita awkmu kate student exchange nak jepang langsung mixed feelings njir, di lain sisi seneng soale awkmu isok di posisi itu, tapi juga sedih soale bakal libur nak ADF 6 bulanan wkwkwk. Apapun itu semoga yang terbaik untukmu dan semua yang u cita citakan semoga semuanya tercapai.
+                        <br><br>
+                        Intine aku pengen terimakasih sudah menjadi teman yang baik, ya walaupun akhir akhir iki sering rasan-rasan satu sama lain antara aku, awkmu, ambek septa, tapi yowes lah, selama kita masih berteman sampai saat ini ae wes bersyukur aku. Gak mintak lebih.
+                        <br><br>
+                        Semangat nak jepang, sehat sehat, jangan lupa bawak no oleh oleh, ambek cewek jepang siji gawe aku."
+                    </p>
+                </div>
+
+                <div class="mt-8 text-center">
+                    <p class="font-bold text-white">Dariku yang selalu mendukungmu,</p>
+                    <p class="text-indigo-300 mt-1">Zakaria Arplem</p>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="text-center text-gray-500 text-sm pb-8">
+            <p>&copy; 2024 Made with ❤️ for a special person.</p>
+        </footer>
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        // --- Inisialisasi AOS ---
+        AOS.init({
+            once: true, // Animasi hanya berjalan sekali
+            offset: 100, // Trigger offset
+            duration: 1000,
+        });
+
+        // --- Inisialisasi Typed.js ---
+        const typed = new Typed('#typed-text', {
+            strings: [
+                'Happy Graduation! 🎓', 
+                'Happy Birthday! 🎂', 
+                'So Proud of You! ✨'
+            ],
+            typeSpeed: 50,
+            backSpeed: 30,
+            backDelay: 2000,
+            loop: true,
+            showCursor: true,
+        });
+
+        // --- Inisialisasi Swiper (Effect Cards) ---
+        const swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+
+        // --- Inisialisasi Confetti (Otomatis saat load) ---
+        window.addEventListener('load', () => {
+            const duration = 3000; // Durasi confetti 3 detik
+            const end = Date.now() + duration;
+
+            (function frame() {
+                confetti({
+                    particleCount: 5,
+                    angle: 60,
+                    spread: 55,
+                    origin: { x: 0 },
+                    colors: ['#a855f7', '#3b82f6', '#ffffff'] // Warna sesuai tema
+                });
+                confetti({
+                    particleCount: 5,
+                    angle: 120,
+                    spread: 55,
+                    origin: { x: 1 },
+                    colors: ['#a855f7', '#3b82f6', '#ffffff']
+                });
+
+                if (Date.now() < end) {
+                    requestAnimationFrame(frame);
+                }
+            }());
+        });
+    </script>
+</body>
+</html>
